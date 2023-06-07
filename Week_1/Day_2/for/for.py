@@ -49,13 +49,20 @@
 #         s += '*'
 #     print(s)
 
-for i in range(1,6): #1,2,3,4,5,
-   for j in range(i):
-       print(i,j)
+    #i prints row
+    #j prints column
 
-x = range(6)
+# for i in range(1,6): #1,2,3,4,5,
+#    for j in range(i):
+#        print(i,j)
 
-for n in x:
-   for j in range(n):
-      print{j}
-  
+
+
+'''
+*****
+****
+***
+**
+*
+'''
+
