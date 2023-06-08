@@ -58,6 +58,4 @@ from collections import defaultdict
 #         g.write(f"{stock},{pe},{pb}\n")
 
 
-with open("C:\\Personal\\Code\\Data_Analytics\\Week_1\\Day_3\\files\\result.csv","w") as output:
-    output.write("Name","Price", "PE Ration")
-    next(output)
+
