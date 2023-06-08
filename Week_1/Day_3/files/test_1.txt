@@ -1,0 +1,4 @@
+wordcount:6Teacher: why are you late, frank?
+wordcount:5frank: because of the sign?
+wordcount:3Teacher: what sign?
+wordcount:9frank: tha one that said "School ahead, go slow"
