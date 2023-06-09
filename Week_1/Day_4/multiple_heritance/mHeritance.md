@@ -1,0 +1,9 @@
+Exercise: Multiple Inheritance
+Real Life Example :
+
+Create multiple inheritance on teacher,student and youtuber.
+Q. if we have created teacher and now one student joins master degree with becoming teacher then what??
+
+Ans :  just make subclass from  teacher so that student will become teacher
+Now student is teacher as well as youtuber then what???
+-just use multiple inheritance for these three relations
