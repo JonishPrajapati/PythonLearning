@@ -59,21 +59,29 @@ class Person:
 
     def get_minor_age(self):
         if int(self.age) >= 18:
-            raise AdultException
+            raise AdultException("Person is an adult.")
         else:
             return self.age
 
-    def display(self):
-        try:
-            print(f"age -> {self.get_minor_age()}")
-        except AdultException:
-            print("Person is an adult")
-        finally:
-            print(f"name -> {self.name}")
+    def display_person(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
 
+# Example usage
+person1 = Person("John Doe", 25)
+person2 = Person("Jane Smith", 16)
+try:
+    age = person1.get_minor_age()
+    person1.display_person()
+    print("Minor age:", age)
+except AdultException as e:
+    print("Exception:", e)
 
-# No exception
-Person("Bhavin", 17).display()
+print()
 
-# AdultException is raised
-Person("Dhaval", 23).display()
+try:
+    age = person2.get_minor_age()
+    person2.display_person()
+    print("Minor age:", age)
+except AdultException as e:
+    print("Exception:", e)
